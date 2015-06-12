@@ -35,5 +35,5 @@ Use the functions as follows:
     h_stats(example_data)
     h_stats(example_data, plot = "none") #if you just need the statistics with no plot
 
-For any comments, suggestions or corrections pleas drop me a line:
+For any comments, suggestions or corrections please drop me a line:
 matteofiorani [at] gmail.com

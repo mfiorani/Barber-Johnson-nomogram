@@ -1,17 +1,15 @@
 # Barber-Johnson nomogram
-R script to produce a Barber-Johnson nomogram
-
-After Barber, Johnson 1973:
+R script to produce a Barber-Johnson nomogram, after Barber and Johnson 1973:
 
 > Barber B. and Johnson D., "The Presentation of Acute Hospital In-patient Statistics",
 > Hospital and Health Services Review, 1973
 
-The R script produces a scatterplot and a dataframe with main statistics from an input dataframe.
+The R script produces a scatterplot and a dataframe with main healthcare statistics from an input dataframe.
 
 ![Barber-Johnson-nomogram](http://mfiorani.pythonanywhere.com/img/nomogram.png)
 
 The input dataframe must include:
-* unit (name of unit under analysis; may be a name, a month, etc.) 
+* unit (name of unit under analysis; may be a ward/hospital name, a month, etc.) 
 * startdate (ISO format yyyy-mm-dd)
 * enddate (ISO format yyyy-mm-dd)
 * patientsdays (sum of ) 

@@ -1,4 +1,4 @@
-# Barber-Johnson-nomogram
+# Barber-Johnson nomogram
 R script to produce a Barber-Johnson nomogram
 
 After Barber, Johnson 1973:
@@ -7,6 +7,8 @@ After Barber, Johnson 1973:
 > Hospital and Health Services Review, 1973
 
 The R script produces a scatterplot and a dataframe with main statistics from an input dataframe.
+
+![Barber-Johnson-nomogram](http://mfiorani.pythonanywhere.com/img/nomogram.png)
 
 The input dataframe must include:
 * unit (name of unit under analysis; may be a name, a month, etc.) 

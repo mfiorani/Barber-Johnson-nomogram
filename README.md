@@ -29,7 +29,8 @@ The output dataframe will include:
 * BOR (bed occupancy rate)
 * TI (turnover index)
 
-An example input dataset and a sample plot are also included.
+An example input dataset is also included.
+
 Use the functions as follows:
 
     h_stats(example_data)

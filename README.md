@@ -10,7 +10,7 @@ The R script produces a scatterplot and a dataframe with main statistics from a 
 
 The input dataframe must include:
 
-* unit (name of unit under analysi; may be a name, a month, etc.) 
+* unit (name of unit under analysis; may be a name, a month, etc.) 
 * startdate (ISO format yyyy-mm-dd)
 * enddate (ISO format yyyy-mm-dd)
 * patientsdays (sum of ) 
@@ -18,17 +18,24 @@ The input dataframe must include:
 * discharges (number of discharges observed)
 * workdays (workdays per week for the specific unit: eg. 5, 6, 7)
 
-the output dataframe will include:
+**Note**: you can name columns as you prefer.
 
-* unit
-* startdate
-* enddate
-* patientsday
-* beds
-* discharges
-* workdays
+The output dataframe will include:
 
+* unit (name of unit under analysis)
+* tot_days (total days)
+* act_days (actual working days in the period)
+* LOS (average length of stay)
+* PRE (average presence per day)
+* RI (rotation index)
+* BOR (bed occupancy rate)
+* TI (turnover index)
+
+An example dataset and a sample plot is also included.
 Use the functions as follows:
 
     h_stats(example_data)
     h_stats(example_data, plot = "none") #if you need just the statistics with no plot
+
+For any comments, suggestions or corrections pleas drop me a line:
+matteofiorani [at] gmail.com
